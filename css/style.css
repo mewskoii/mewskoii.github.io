@@ -1,36 +1,42 @@
 @font-face {
     font-family: "Involve-Bold";
-    scr: url("/fonts/Involve-Bold.otf")format("otf");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    src: local('Monserat'),
+        url('../fonts/Montserrat-Bold.woff2')format('w0ff2'),
+        url("../fonts/Montserrat-Bold.woff")format("woff");
+
 }
 
 @font-face {
     font-family: "Involve-Regular";
-    scr: url("/fonts/Involve-Regular.otf")format("otf");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    src: local('Monserat'),
+        url('../fonts/Montserrat-Regular.woff2')format('w0ff2'),
+        url("../fonts/Montserrat-Regular.woff")format("woff");
+
 }
 
 @font-face {
     font-family: "Montserrat-SemiBold";
-    scr: url("/fonts/Montserrat-SemiBold.ttf")format("ttf");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    src: local('Monserat'),
+        url('../fonts/Montserrat-SemiBold.woff2')format('w0ff2'),
+        url("../fonts/Montserrat-SemiBold.woff")format("woff");
+        
 }
 
 @font-face {
     font-family: "Montserrat-Medium";
-    scr: url("/fonts/Montserrat-Medium.ttf")format("ttf");
     font-style: normal;
-    font-weight: normal;
-}
+    font-weight: 400;
+    src: local('Monserat'),
+        url('../fonts/Montserrat-SemiBold.woff2')format('w0ff2'),
+        url("../fonts/Montserrat-Medium.woff")format("woff");
+        
 
-@font-face {
-    font-family: "Inter-Medium";
-    scr: url("/fonts/Inter-Medium.ttf")format("ttf");
-    font-style: normal;
-    font-weight: normal;
 }
 
 html{
